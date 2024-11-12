@@ -3,31 +3,40 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Cadastro de Evento</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
     <script src='main.js'></script>
 </head>
 <body>
-    <main>
-        <div class="container">
-            <form action="" class="form">
-                <h3>🌟🪐Pagina de login🌟🪐</h3>
-                <label for="">Nome Completo</label><br>
-                <input type="text"><br>
-                <label for="">E-mail</label><br>
-                <input type="email"><br>
-                <label for="">Telefone</label><br>
-                <input type="number"><br>
-                <label for="">Data de evento</label><br>
-                <input type="date" name="" id=""><br>
-                <label for="">Data de evento</label><br>
-                <input type="date"><br>
-                <label for="">Comentarios adicionais</label><br>
-                <input type="text"><br>
-                <button type="button"><a href="endereco.html">Entrar</a></button>
-            </form>
-        </div>
-    </main>
+    <div class="container">
+        <form action="" class="form">
+         <h1>Cadastro de Evento</h1>
+        <h2>Por favor, insira as informações a seguir.</h2>
+         <label for="">Nome Completo:</label><br>
+         <input type="text" name="" id=""><br><br>
+         <label for="">E-mail:</label><br>
+         <input type="e-mail"><br><br>
+         <label for="">Telefone:</label><br>
+         <input type="number" name="" id=""><br><br>
+         <label for="">Data do Evento:</label><br>
+         <input type="date"><br><br>
+         <label for="">Tipo de Evento:</label><br>
+         <select name="" id="">
+            <option value=""></option>
+            <option value="">Aniversário</option>
+            <option value="">Casamento</option>
+            <option value="">Confraternização</option>
+            <option value="">Velório</option>
+            <option value="">Outro</option>
+         </select><br><br>
+         <label for="">Número de convidados:</label><br>
+         <input type="number"><br><br>
+         <label for="">Comentários Adicionais:</label><br>
+         <textarea cols="50" rows="10"></textarea><br><br>
+            <button type="button">Enviar</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </div>
 </body>
 </html>
